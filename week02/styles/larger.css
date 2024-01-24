@@ -1,0 +1,10 @@
+@media (min-width: 900px) {
+  main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+  }  
+  h2{
+    grid-column: span 3;
+  }
+}
