@@ -21,6 +21,32 @@ main {
   border-radius: 5px;
   margin-bottom: 1rem;
 }
+#menu {
+	font-size: 1.5rem;
+	border: 0;
+	background: none;
+	color: white;
+	position: absolute;
+	top: 100px;
+	right: 1rem;
+  z-index: 2;
+  cursor: pointer;
+
+}
+#menu::before {
+	content: "☰";
+}
+
+#menu.show::before {
+	content: "✕";
+}
+
+nav.show a{
+  display: block;
+}
+nav a{
+  display: none;
+}
 
 
 header {
