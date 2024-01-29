@@ -1,0 +1,42 @@
+@media (min-width: 600px) {
+
+  #menu {
+    display: none;
+  }
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  nav a{
+    display: block;
+    flex: 1 1 100%;
+  }
+
+  main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+  }
+  h2{
+    grid-column: span 2;
+  }
+  .card{
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
+  }
+  .informative{
+    margin: 0.5rem;
+    padding: 0.5rem;
+    box-shadow: 2px 2px 4px rgba(0,0,0,.5);
+  }
+  .colorPalette{
+    margin: 0.5rem;
+    padding: 0.5rem;
+    box-shadow: 2px 2px 4px rgba(0,0,0,.5);
+  }
+  .wireframe{
+    grid-column: span 2;
+  }
+
+  
+}
