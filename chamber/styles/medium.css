@@ -1,0 +1,17 @@
+@media screen and (min-width: 600px) {
+  #menu {
+    display: none;
+  }
+  nav a, nav.show a{
+    display: block;
+  }
+  nav, footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .info, .join, .weather, .adv{
+    margin: 10px;
+    box-shadow: 2px 2px 2px #333;
+  }
+}

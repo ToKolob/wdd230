@@ -1,0 +1,14 @@
+@media screen and (min-width: 900px) {
+  main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+  .hero{
+    grid-column: span 2;
+  }
+  .info, .join, .weather, .adv{
+    height: fit-content;
+  }
+  
+}
