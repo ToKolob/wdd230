@@ -85,7 +85,7 @@ section.info{
 }
 section.join{
   background: var(--secondary-color);
-  color: white;
+  color: black;
   padding: 1rem;
   margin-bottom: 1rem;
   margin-top: 1rem;  
