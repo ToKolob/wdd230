@@ -4,7 +4,7 @@
     grid-template-columns: 1fr 1fr;
     align-items: center;
   }
-  .hero{
+  .heroContainer{
     grid-column: span 2;
   }
   .info, .join, .weather, .adv{

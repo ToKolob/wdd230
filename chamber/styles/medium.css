@@ -12,6 +12,6 @@
   }
   .info, .join, .weather, .adv{
     margin: 10px;
-    box-shadow: 2px 2px 2px #333;
+    box-shadow: 2px 2px 4px #565656;
   }
 }

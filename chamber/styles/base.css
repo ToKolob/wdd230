@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@500&family=Open+Sans:wght@800&family=Roboto:wght@100&display=swap');
 :root {
-  --primary-color: #BFCFD9;
+  --primary-color: white;
   --secondary-color: #758C23;
   --accent-1-color: #57591C;
   --accent-2-color: #3E4016;
-  --accent-3-color: #0D0D0D;
+  --accent-3-color: black;
   --heading-font: Montserrat, sans-serif;
   --paragraph-font: Lato, sans-serif;
 }
@@ -13,8 +13,10 @@
   margin: 0;
 }
 body{
+  background-color: var(--primary-color);
   max-width: 1000px;
   margin: 0 auto;
+  color: var(--accent-3-color);
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
@@ -31,7 +33,8 @@ img{
 header{
   display: block;
   background-color: var(--accent-2-color);
-  color: white;;
+  color: white;
+  position: relative;
 }
 header h1{
   font-size: clamp(0.5rem, 4.8vw, 3rem);
@@ -57,6 +60,12 @@ nav a:hover{
   color: white;  
   background-color: var(--accent-1-color);
 }
+#toggleLight{
+  position: absolute;
+  z-index: 1;
+  top: calc(100% - 30px);
+  left: calc(100% - 30px);
+}
 #menu::before{
   content: "☰";
   position: absolute;
@@ -73,26 +82,30 @@ nav a:hover{
   background-color: var(--accent-1-color);
   color: white;  
 }
+#menu{
+  background-color: var(--accent-2-color);
+}
 
 nav.show a{
   display: block;
 }
+.heroContainer{
+  position: relative;
+}
+
 section.info{
-  background: var(--primary-color);
+  background: var(--secondary-color);
   padding: 1rem;
   margin-bottom: 1rem;
   margin-top: 1rem;
 }
-section.join{
-  background: var(--secondary-color);
-  color: black;
-  padding: 1rem;
-  margin-bottom: 1rem;
-  margin-top: 1rem;  
-}
+
 .joinButton{
+  position: absolute;
+  top: calc(100% - 5rem);
+  left: calc(100% - 170px);
+  min-width: 120px;
   display: block;
-  width: fit-content;
   margin: 10px auto 0 auto;  
   background-color: var(--accent-1-color);
   color: white;
@@ -100,6 +113,7 @@ section.join{
   border-radius: 5px;
   text-decoration: none;
   text-align: center;
+  opacity: 0.8;
 }
 .joinButton:hover{
   background-color: var(--accent-2-color);
