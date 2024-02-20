@@ -33,7 +33,11 @@
 
   <main>
     <div class="heroContainer">
-      <img src="./images/floating_wood_houses_dark.jpg" alt="hero image" class="hero">
+      <picture>
+        <source media="(max-width: 500px)" srcset="./images/wdd230-org-small.webp" alt ="hero image small">
+        <source media="(max-width: 700px)" srcset="./images/wdd230-org-medium.webp" alt="hero image medium">
+        <img src="./images/wdd230-org-large.webp" alt="hero image large" class="hero">
+      </picture>
       <a href="#" class="joinButton">Click here to join!</a>
     </div>
 
@@ -50,7 +54,9 @@
     </section>
     <section class="weather">
       <h2>Weather</h2>
-      <p>As of now, the weather in the city of Cruzeiro do Sul is sunny and pleasant. The weather is also expected to be sunny and pleasant in the upcoming week.</p>
+      <div id="moreInfo"></div>
+      <div id="temperature"></div>
+      <div id="windSpeed"></div>
     </section>
     <section class="adv">
       <h2>Amazonia Adventures</h2>
@@ -74,5 +80,6 @@
   <script src="scripts/navBar.js"></script>
   <script src="scripts/getdates.js"></script>
   <script src="scripts/toggleLight.js"> </script>
+  <script src="scripts/windchill.js"></script>
 </body>
 </html>
