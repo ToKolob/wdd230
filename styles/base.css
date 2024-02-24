@@ -157,3 +157,10 @@ padding: 20px 20px;
 white-space: nowrap;
 font-size: 1.5rem;
 }
+.map{
+  grid-column: span 2;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 1rem;
+}
