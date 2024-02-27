@@ -14,4 +14,13 @@
     margin: 10px;
     box-shadow: 2px 2px 4px #565656;
   }
+  .side:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+  }
+  .side{
+    box-shadow: 2px 2px 4px #565656;
+    transition: 0.3s;
+  }
+  
 }

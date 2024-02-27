@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Chamber Site of Cruzeiro do Sul">
+  <meta name="author" content="Lucas Nunes">
+  <meta property="og:title" content="Chamber Of Commerce">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://tokolob.github.io/wdd230/">
+  <meta property="og:image" content="https://tokolob.github.io/wdd230/chamber/images/hero-large.webp">
+  <title>Cruzeiro do Sul Chamber of Commerce</title>
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/medium.css">
+  <link rel="stylesheet" href="styles/larger.css">
+  <link rel="shortcut icon" href="https://tokolob.github.io/wdd230/chamber/favicon.ico" type="image/x-icon">
+</head>
+<body>  
+
+  <header>
+    <h1>Cruzeiro do Sul Chamber of Commerce</h1>
+    <button id="menu" aria-label="Menu"></button>
+
+    <nav>
+      <a href="../index.html" target="_self">Home</a>
+      <a href="#">Page 2</a>
+      <a href="#">Page 3</a>
+      <a href="./discover.html" target="_self" >Discover</a>
+    </nav>
+    <div id="toggleLight">🌙</div>
+  </header>
+
+  <main class="sideBarLayout" >
+
+    <div class="sideBar">
+      <section class="adv">
+        <span id="visits"></span>
+      </section>
+      <section class="info">
+        <h2>About Cruzeiro do Sul</h2>
+        <p>Cruzeiro do Sul is a city located in the state of Acre, Brazil. With a population of over 90,000 people, it is known for its rich cultural heritage and natural beauty.</p>
+        <!-- Add more information about the city -->
+      </section>
+  
+      <section class="adv">
+        <h2>Upcoming Events</h2>
+        <p>Stay tuned for exciting events happening in Cruzeiro do Sul:</p>
+        <ul>
+          <li>Feira do Peixe - Date: February 19</li>
+          <!-- Add more upcoming events -->
+        </ul>
+      </section>
+  
+      <section class="info">
+        <h2>Tourist Attractions</h2>
+        <p>Explore the following attractions in Cruzeiro do Sul:</p>
+        <ul>
+          <li>Parque Natural Chico Mendes</li>
+          <li>Museu do Seringal</li>
+        </ul>
+      </section>
+  
+      <section class="info">
+        <h2>Demographics</h2>
+        <p>Learn about the demographics of Cruzeiro do Sul:</p>
+        <ul>
+          <li>Population: 91.888</li>
+          <li>Area of territorial unit [2022]: 8,783.470 km²</li>
+          <li>Average monthly salary of formal workers [2021]: 1.8 minimum wages</li>
+          <li>Employed population [2021]: 13.22%</li>
+        </ul>
+      </section>
+      <section class="adv">
+        <h2>History</h2>
+        <p>The region now comprising the municipality of Cruzeiro do Sul was inhabited by Arawak or Aruak indigenous tribes, including the Náuas, who dominated the area until an epidemic in 1870.</p>
+        <p>Expeditions began in 1857, leading to colonization due to northeastern immigration, seeking to escape droughts.</p>
+        <p>Conflicts arose with the arrival of Peruvian rubber tappers in 1896, leading to clashes between Brazilians and Peruvians.</p>
+        <p>In 1904, Acre was divided into three departments, with Cruzeiro do Sul included in the Alto Juruá.</p>
+        <p>Gregório Thaumaturgo de Azevedo was the first mayor, establishing the headquarters in the Centro Brasileiro Rubber Plantation.</p>      
+
+      </section>
+    </div>
+    <div>
+      <picture>
+        <source media="(min-width: 500px)" srcset="./images/amazonas-tour-medium.webp">
+        <img src="./images/amazonas-tour-small.webp" alt="amazonas tour" loading="lazy" class="side">
+      </picture>
+      <picture>
+        <source media="(min-width: 500px)" srcset="./images/amazon-three-borders-medium.webp">
+        <img src="./images/amazon-three-borders-small.webp" alt="three borders" loading="lazy" class="side">
+      </picture>
+      <picture>
+        <source media="(min-width: 500px)" srcset="./images/cacau-medium.webp">
+        <img src="./images/cacau-small.webp" alt="cacau" loading="lazy" class="side">
+      </picture>
+      <picture>
+        <source media="(min-width: 500px)" srcset="./images/dessana-presentation-medium.webp" >
+        <img src="./images/dessana-presentation-small.webp" alt="dessana presentation" loading="lazy" class="side">
+      </picture>
+      <picture>
+        <source media="(min-width: 500px)" srcset="./images/baked-tambaqui-medium.webp">
+        <img src="./images/baked-tambaqui-small.webp" alt="baked tambaqui" loading="lazy" class="side">
+      </picture>
+      <picture>
+        <source media="(min-width: 500px)" srcset="./images/cattle-medium.webp">
+        <img src="./images/cattle-small.webp" alt="cattle" loading="lazy" class="side">
+      </picture>
+
+
+    </div>
+
+
+  </main>
+  <footer>
+    <p>&copy; Lucas Nunes. </p>
+    <p>Project of WDD 230</p>
+    <p><span id="lastModified"></span></p>
+
+  </footer>
+  <script src="scripts/navBar.js"></script>
+  <script src="scripts/getdates.js"></script>
+  <script src="scripts/toggleLight.js"> </script>
+  <script src="scripts/wellcomeVisits.js"></script>
+</body>
+</html>
