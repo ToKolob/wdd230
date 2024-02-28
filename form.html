@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Form for Lucas Nunes - WDD 230 - Web Frontend Development">
+  <meta name="author" content="Lucas Nunes">
+  <meta property="og:title" content="Form for Lucas Nunes - WDD 230 - Web Frontend Development">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://tokolob.github.io/wdd230/images/image.webp">
+  <meta property="og:url" content="https://tokolob.github.io/wdd230/">
+  <link rel="stylesheet" href="./styles/normalize.css">
+  <link rel="stylesheet" href="./styles/base.css">
+  <link rel="stylesheet" href="./styles/larger.css">
+  <link rel="stylesheet" href="./styles/form.css">
+  <title>Form</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+</head>
+<body>
+  <header>
+    <img src="./images/self.webp" alt="Lucas Nunes">
+    <h1>Lucas de Souza Nunes</h1>
+  </header>
+  <button id="menu" aria-label="Menu"></button>
+  <nav>
+    <a href="./index.html">Home</a>
+    <a href="./lesson03/chamber-site-plan.html">Site Plan</a>
+    <a href="./chamber/index.html">Chamber</a>
+    <a href="https://www.byui.edu/">BYU-Idaho</a>
+    <a href="https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/122?lang=eng&id=p4-p9" target="_blank" rel="external">Scriptures</a>
+  </nav>
+  <main>
+    <form action="record.html" method="get">
+      <label for="surname">Name:</label>
+      <input type="text" name="surname" id="surname" placeholder="Your name" required>
+
+      <label for="password">Password:</label>
+      <!--   pattern must contain only alphanumeric characters and at least 8 characters -->
+      <input type="password" name="password" id="password" pattern="[a-zA-Z0-9]{8,}">
+      <label for="email"> Email</label>
+      <input type="email" name="email" id="email" placeholder="your@byui.edu" pattern="[a-zA-Z0-9_.\-]+@byui.edu" title="A valid byui.edu email address." required >
+      <label for="passwordConfirmation">Confirm:</label>
+      <input type="password" name="passwordConfirmation" id="passwordConfirmation">
+
+
+      <label for="pageRating"> Page Rating</label>
+      <input type="range" name="pageRating" id="pageRating" min="1" max="10" step="1" list="rangeValues">
+      <datalist id="rangeValues">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+      </datalist>
+      <input type="submit" value="Submit" name="submit">
+    </form>
+  </main>
+  <footer>
+    <p id="currentdate"></p>
+    <p>Lucas de Souza Nunes</p>
+    <p>São Paulo, Brazil &#x1F1E7;&#x1F1F7;</p>
+    <p id="lastModified"></p>
+  </footer>
+
+ <script src="scripts/getdates.js"></script>
+ <script src="./scripts/navBar.js"></script>
+ <script src="./scripts/password.js"></script>
+</body>
+</html>
