@@ -1,17 +1,22 @@
+:root {
+  --valid-color: rgb(0, 255, 0, 0.1); 
+  --invalid-color: rgb(255, 0, 0, 0.1);
+  --primary-color: #1d4d72; 
+}
 input[name="email"]:required:valid {
-	background-color: rgb(0, 255, 0, 0.1);
+	background-color: var(--valid-color);
 }
 
 input[name="email"]:invalid {
-	background-color: rgb(255, 0, 0, 0.1);
+	background-color: var(--invalid-color);
 }
 
  input[name="password"]:invalid {
- 	background-color: rgb(255, 0, 0, 0.1);
+ 	background-color: var(--invalid-color); 
  }
 
  input[name="password"]:valid {
- 	background-color: rgb(0, 255, 0, 0.1);
+ 	background-color:   var(--valid-color);
  }
  form{
  	padding: 2rem;
@@ -27,7 +32,7 @@ input[type="submit"] {
   grid-column: 4/5;
 }
 input[type="submit"]:hover {
-  background-color: #1d4d72;
+  background-color: var(--primary-color);
   color: white;
   cursor: pointer;
 }
