@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Chamber Site of Cruzeiro do Sul">
+  <meta name="author" content="Lucas Nunes">
+  <meta property="og:title" content="Chamber Of Commerce">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://tokolob.github.io/wdd230/">
+  <meta property="og:image" content="https://tokolob.github.io/wdd230/chamber/images/hero-large.webp">
+  <title>Cruzeiro do Sul Chamber of Commerce</title>
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/medium.css">
+  <link rel="stylesheet" href="styles/larger.css">
+  <link rel="shortcut icon" href="https://tokolob.github.io/wdd230/chamber/favicon.ico" type="image/x-icon">
+</head>
+<body>  
+
+  <header>
+    <h1>Cruzeiro do Sul Chamber of Commerce</h1>
+    <button id="menu" aria-label="Menu"></button>
+
+    <nav>
+      <a href="./index.html" target="_self">Home</a>
+      <a href="#">Page 2</a>
+      <a href="#">Page 3</a>
+      <a href="./discover.html" target="_self" >Discover</a>
+    </nav>
+    <div id="toggleLight">🌙</div>
+  </header>
+
+
+  <main>
+    <h2 class="joinTitle">Join Chamber Today!</h2>
+    <form action="thankyou.html" method="get">
+      <h3>Contact Information</h3>
+      <label for="firstName" class="required">First Name</label>
+      <input type="text" name="firstName" id="firstName" required autofocus>
+      <label for="lastName" class="required"> Last Name</label>
+      <input type="text" name="lastName" id="lastName" required>
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" placeholder="your@email.com">
+      <label for="phone" class="required">Phone</label>
+      <input type="tel" name="phone" id="phone" placeholder="123-456-7890" required>      
+      <h3>Membership</h3>
+      <!-- pattern to only accept alpha characters, hyphens, and spaces with a minimum of seven characters using a regular expression. -->
+      <label for="position"> Position</label>
+      <input type="text" name="position" id="position" pattern="[a-zA-Z\s-]{7,}">
+
+      <label for="organizationName" class="required">Organization Name</label> 
+      <input type="text" name="organizationName" id="organizationName" required>
+      <label for="membershipLevel"> Membership Level</label>
+      <select name="membershipLevel" id="membershipLevel">
+        <option value="Non Profit">Non Profit</option>
+        <option value="Bronze">Bronze</option>
+        <option value="Silver">Silver</option>
+        <option value="Gold">Gold</option>
+      </select>
+      <label for="businessDescription">Business Description</label>
+      <textarea name="businessDescription" id="businessDescription"></textarea>
+      <input type="hidden" name="date" id="date">
+      <button type="submit" id="submit" >Submit</button>
+
+    </form>
+    <div class="container">
+      <div class="membership">
+        <h2>Gold</h2>
+        <p>
+          Our Gold membership level is tailored for those seeking the highest level of engagement and benefits within our community.
+        </p>
+        <ul>
+          <li>All benefits of Silver membership</li>
+          <li>Priority access to events</li>
+          <li>Personalized advertising campaigns</li>
+        </ul>
+        <p>Cost: $200/year</p>
+      </div>
+    
+      <div class="membership">
+        <h2>Silver</h2>
+        <p>
+          Silver membership provides enhanced features and access to exclusive events and resources.
+        </p>
+        <ul>
+          <li>All benefits of Bronze membership</li>
+          <li>Special training workshops</li>
+          <li>Increased advertising opportunities</li>
+        </ul>
+        <p>Cost: $100/year</p>
+      </div>
+    
+      <div class="membership">
+        <h2>Bronze</h2>
+        <p>
+          The Bronze membership level offers increased benefits for those looking to engage more actively within the community.
+        </p>
+        <ul>
+          <li>All benefits of Non-Profit membership</li>
+          <li>Spotlight positions on the website</li>
+          <li>Event discounts</li>
+        </ul>
+        <p>Cost: $50/year</p>
+      </div>
+    
+      <div class="membership">
+        <h2>Non Profit</h2>
+        <p>
+          Our Non-Profit membership level is designed for organizations dedicated to social welfare and community development.
+        </p>
+        <ul>
+          <li>Access to community events</li>
+          <li>Discounts on training sessions</li>
+        </ul>
+        <p>Cost: Free</p>
+      </div>
+    </div>
+   
+  </main>
+  <footer>
+    <p>&copy; Lucas Nunes. </p>
+    <p>Project of WDD 230</p>
+    <p><span id="lastModified"></span></p>
+
+  </footer>
+  <script src="scripts/navBar.js"></script>
+  <script src="scripts/getdates.js"></script>
+  <script src="scripts/toggleLight.js"> </script>
+  <script src="scripts/join.js"></script>
+
+</body>
+</html>

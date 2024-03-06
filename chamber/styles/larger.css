@@ -10,5 +10,12 @@
   .info, .join, .weather, .adv{
     height: fit-content;
   }
+  .joinTitle{
+    grid-column: span 2;
+    background-color: aqua;
+  }
+  form{
+    margin-bottom: auto;
+  }
   
 }
