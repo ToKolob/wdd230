@@ -12,7 +12,6 @@
   }
   .joinTitle{
     grid-column: span 2;
-    background-color: aqua;
   }
   form{
     margin-bottom: auto;
