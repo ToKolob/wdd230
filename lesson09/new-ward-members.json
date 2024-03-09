@@ -1,0 +1,104 @@
+[
+  {
+    "family_name": "Smith",
+    "move_in_date": "2023-05-15",
+    "number_of_people": 4,
+    "visited_by_bishopric": true,
+    "family_members": [
+      {
+        "name": "John Smith",
+        "gender": "Male",
+        "birthdate": "1980-03-10"
+      },
+      {
+        "name": "Jane Smith",
+        "gender": "Female",
+        "birthdate": "1982-07-20"
+      },
+      {
+        "name": "Michael Smith",
+        "gender": "Male",
+        "birthdate": "2010-01-05"
+      },
+      {
+        "name": "Emily Smith",
+        "gender": "Female",
+        "birthdate": "2015-11-30"
+      }
+    ]
+  },
+  {
+    "family_name": "Johnson",
+    "move_in_date": "2024-01-20",
+    "number_of_people": 3,
+    "visited_by_bishopric": false,
+    "family_members": [
+      {
+        "name": "Robert Johnson",
+        "gender": "Male",
+        "birthdate": "1975-09-12"
+      },
+      {
+        "name": "Sarah Johnson",
+        "gender": "Female",
+        "birthdate": "1978-12-05"
+      },
+      {
+        "name": "David Johnson",
+        "gender": "Male",
+        "birthdate": "2010-08-23"
+      }
+    ]
+  },
+  {
+    "family_name": "Garcia",
+    "move_in_date": "2023-11-10",
+    "number_of_people": 5,
+    "visited_by_bishopric": true,
+    "family_members": [
+      {
+        "name": "Carlos Garcia",
+        "gender": "Male",
+        "birthdate": "1973-02-28"
+      },
+      {
+        "name": "Maria Garcia",
+        "gender": "Female",
+        "birthdate": "1977-06-15"
+      },
+      {
+        "name": "Elena Garcia",
+        "gender": "Female",
+        "birthdate": "2002-10-20"
+      },
+      {
+        "name": "Pedro Garcia",
+        "gender": "Male",
+        "birthdate": "2005-03-08"
+      },
+      {
+        "name": "Luis Garcia",
+        "gender": "Male",
+        "birthdate": "2012-08-12"
+      }
+    ]
+  },
+  {
+    "family_name": "Kim",
+    "move_in_date": "2022-12-05",
+    "number_of_people": 2,
+    "visited_by_bishopric": true,
+    "family_members": [
+      {
+        "name": "Soojin Kim",
+        "gender": "Female",
+        "birthdate": "1988-09-25"
+      },
+      {
+        "name": "Jihoon Kim",
+        "gender": "Male",
+        "birthdate": "1986-04-10"
+      }
+    ]
+  }
+]
