@@ -1,10 +1,10 @@
 @media screen and (min-width: 900px) {
-  main{
+  main, div.container{
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
   }
-  .heroContainer{
+  .heroContainer, .buttons-container, div.container, table{
     grid-column: span 2;
   }
   .info, .join, .weather, .adv{

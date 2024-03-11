@@ -10,7 +10,7 @@
     flex-direction: row;
     justify-content: center;
   }
-  .info, .join, .weather, .adv, .membership,form{
+  .info, .join, .weather, .adv, .membership, .card, .toggle-button, form{
     margin: 10px;
     box-shadow: 2px 2px 4px #565656;
   }

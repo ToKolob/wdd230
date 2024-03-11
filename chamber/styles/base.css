@@ -131,6 +131,17 @@ section.weather{
   border: 2px solid var(--accent-1-color);
   border-radius: 5px;
 }
+.card{
+  padding: 1rem;
+  margin-bottom: .5rem;
+  margin-top: .5rem;
+  border: 2px solid var(--accent-1-color);
+  border-radius: 5px;
+}
+.card p, .card img{
+  padding: .5rem 1rem .5rem 1rem;
+
+}
 
 footer{
   display: block;
@@ -232,4 +243,43 @@ div.thankYou{
   height: calc(100vh - 298px);
 
 
+}
+.toggle-button{
+  padding: .5rem;
+  border-radius: 5px;
+  background-color: var(--accent-1-color);
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.buttons-container{
+  display: flex;
+  gap: .5rem;
+  padding: 1rem;
+
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  flex-direction: row;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 2px solid var(--accent-1-color);
+  border-radius: 5px;
+  background: var(--primary-color);
+}
+
+
+tbody:nth-child(even) {
+  background-color: rgba(130, 130, 130, 0.1);
+}
+tbody:nth-child(odd) {
+  background-color: rgba(130, 130, 130, 0.2);
+}
+thead th{
+  background-color: var(--accent-1-color);
+  color: white;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
 }
