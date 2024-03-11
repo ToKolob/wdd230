@@ -264,10 +264,12 @@ div.thankYou{
 }
 table {
   border-collapse: collapse;
-  width: 100%;
+  width: var(100% -10px);
   border: 2px solid var(--accent-1-color);
   border-radius: 5px;
   background: var(--primary-color);
+  margin: 0;
+
 }
 
 
@@ -282,4 +284,17 @@ thead th{
   color: white;
   padding-bottom: 0.5rem;
   padding-top: 0.5rem;
+}
+tr{
+  display: flex;
+  flex-direction: column;
+  border-bottom: 2px solid var(--accent-1-color);
+}
+td{
+  padding: 1rem;
+  padding-bottom: 0;
+}
+div.container{
+  margin: 0;
+  padding: 0;
 }

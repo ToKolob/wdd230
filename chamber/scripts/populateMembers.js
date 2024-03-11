@@ -58,14 +58,6 @@ async function displayList() {
     const table = document.createElement('table');
     table.innerHTML = 
       `<thead> 
-        <tr>
-          <th>Name</th>
-          <th>Other Information</th>
-          <th>Address</th>
-          <th>Phone</th>
-          <th>Website</th>
-          <th>Membership Level</th>
-        </tr>
       </thead>
       <tbody>`;
 
