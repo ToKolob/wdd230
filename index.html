@@ -76,14 +76,22 @@
         <li>09:
           <a href="./lesson09/new-ward-members.json">JSON</a>
         </li>
+        <li>10:
+          <a href="./lesson10/weather.html">Weather</a>
+        </li>
       </ul>
     </section>
 
     <section class="card information">
       <h3>Information</h3>
       <!-- Information place holder -->
-      <p>São Paulo, Brazil</p>
-      <p> 76°F - Sunshine</p>
+      <p>São Paulo, Brazil <span id="current-temp"></span>°C </p>
+      <p>
+        <img id="weather-icon" src="" alt="">        
+      </p>      
+      <p>
+        <span id="weather-desc"></span>
+      </p>
       <span id="visits"> </span>
     </section>
 
@@ -100,5 +108,6 @@
  <script src="scripts/getdates.js"></script>
  <script src="./scripts/navBar.js"></script>
  <script src="./scripts/displayVisits.js"></script>
+ <script src="./scripts/weather.js"></Script:src>
 </body>
 </html>
