@@ -7,7 +7,7 @@ const captionDesc = document.querySelector('#weather-desc');
 //sao paulo weather informations
 //lat = -23.5475 lon = -46.6361
 //in celcius
-const url = 'http://api.openweathermap.org/data/2.5/forecast?lat=-23.5475&lon=-46.6361&units=metric&appid=050271941b81b4668fba3e27d09a33dc';
+const url = 'https://api.openweathermap.org/data/2.5/forecast?lat=-23.5475&lon=-46.6361&units=metric&appid=050271941b81b4668fba3e27d09a33dc';
 
 async function apiFetch() {
   try {
