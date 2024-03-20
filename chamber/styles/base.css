@@ -9,7 +9,8 @@
   --paragraph-font: Lato, sans-serif;
 }
 *{
-  padding: 0;
+  padding: 0;currently not statically checked
+  
   margin: 0;
 }
 body{
@@ -264,7 +265,7 @@ div.thankYou{
 }
 table {
   border-collapse: collapse;
-  width: var(100% -10px);
+  width: 95%;
   border: 2px solid var(--accent-1-color);
   border-radius: 5px;
   background: var(--primary-color);
