@@ -17,13 +17,19 @@
   <link rel="shortcut icon" href="https://tokolob.github.io/wdd230/chamber/favicon.ico" type="image/x-icon">
 </head>
 <body>  
+  <div id="banner">
+    <p>
+      Join us for the Chamber of Commerce meet and greet on Wednesday at 7:00 p.m.      
+    </p>
+    <button id="closeBanner">X</button>
+  </div>
 
   <header>
     <h1>Cruzeiro do Sul Chamber of Commerce</h1>
     <button id="menu" aria-label="Menu"></button>
 
     <nav>
-      <a href="../index.html" target="_self">Home</a>
+      <a href="./index.html" target="_self">Home</a>
       <a href="#">Page 2</a>
       <a href="./directory.html">Directory</a>
       <a href="./discover.html" target="_self" >Discover</a>
@@ -55,9 +61,7 @@
     </section>
     <section class="weather">
       <h2>Weather</h2>
-      <div id="moreInfo"></div>
-      <div id="temperature"></div>
-      <div id="windSpeed"></div>
+      <div id="current-temp"></div>
     </section>
     <section class="adv">
       <h2>Amazonia Adventures</h2>
@@ -81,6 +85,7 @@
   <script src="scripts/navBar.js"></script>
   <script src="scripts/getdates.js"></script>
   <script src="scripts/toggleLight.js"> </script>
-  <script src="scripts/windchill.js"></script>
+  <script src="scripts/weather.js"></script>
+  <script src="scripts/banner.js"></script>
 </body>
 </html>
