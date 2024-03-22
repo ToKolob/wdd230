@@ -8,7 +8,7 @@
     grid-column: span 2;
   }
   .info, .join, .weather, .adv{
-    height: calc(100% - 60px);
+    height: fit-content;
   }
   .joinTitle{
     grid-column: span 2;
