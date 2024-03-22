@@ -307,7 +307,7 @@ div.container{
   font-size: 1rem;
 }
 #current-temp div{
-  box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+  box-shadow: 1px 1px 5px rgba(130, 130, 130, 0.5);
   padding: 1rem;
   margin: 1rem;
   border-radius: 5px;

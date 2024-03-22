@@ -1,67 +1,94 @@
+
 {
   "companies": [
-    {
-      "name": "Empresa Acreana",
-      "address": "Rua das Palmeiras, 123, Rio Branco - AC",
-      "phone": "+55 68 1234-5678",
-      "website": "https://www.empresaacreana.com",
-      "image": "empresaacreana_logo.png",
-      "membership_level": "Ouro",
-      "other_information": "A Empresa Acreana é líder em sustentabilidade na região amazônica."
-    },
-    {
-      "name": "Companhia Amazônia",
-      "address": "Avenida dos Ipês, 456, Cruzeiro do Sul - AC",
-      "phone": "+55 68 2345-6789",
-      "website": "https://www.companhiaamazonia.com",
-      "image": "companhiaamazonia_logo.png",
-      "membership_level": "Prata",
-      "other_information": "A Companhia Amazônia tem se dedicado à preservação da flora e fauna da Amazônia."
-    },
-    {
-      "name": "Floresta Verde Ltda.",
-      "address": "Travessa das Árvores, 789, Sena Madureira - AC",
-      "phone": "+55 68 3456-7890",
-      "website": "https://www.florestaverde.com",
-      "image": "florestaverde_logo.png",
-      "membership_level": "Bronze",
-      "other_information": "A Floresta Verde Ltda. é especializada em manejo sustentável de florestas na Amazônia."
-    },
-    {
-      "name": "Seringal Amazônia S.A.",
-      "address": "Estrada dos Seringais, 101, Feijó - AC",
-      "phone": "+55 68 4567-8901",
-      "website": "https://www.seringalamazonia.com",
-      "image": "seringalamazonia_logo.png",
-      "membership_level": "Ouro",
-      "other_information": "A Seringal Amazônia S.A. é líder na produção sustentável de borracha natural na Amazônia."
-    },
-    {
-      "name": "Madeira Legal Ltda.",
-      "address": "Alameda das Castanheiras, 202, Tarauacá - AC",
-      "phone": "+55 68 5678-9012",
-      "website": "https://www.madeiralegal.com",
-      "image": "madeiralegal_logo.png",
-      "membership_level": "Prata",
-      "other_information": "A Madeira Legal Ltda. opera de acordo com as normas de manejo sustentável de madeira na Amazônia."
-    },
-    {
-      "name": "Agrofloresta Sustentável S.A.",
-      "address": "Rodovia da Sustentabilidade, 303, Brasiléia - AC",
-      "phone": "+55 68 6789-0123",
-      "website": "https://www.agroflorestasustentavel.com",
-      "image": "agroflorestasustentavel_logo.png",
-      "membership_level": "Bronze",
-      "other_information": "A Agrofloresta Sustentável S.A. é comprometida com práticas agrícolas sustentáveis na Amazônia."
-    },
-    {
-      "name": "Turismo Amazônico Ltda.",
-      "address": "Praça das Águas, 404, Porto Acre - AC",
-      "phone": "+55 68 7890-1234",
-      "website": "https://www.turismoamazonico.com",
-      "image": "turismoamazonico_logo.png",
-      "membership_level": "Ouro",
-      "other_information": "A Turismo Amazônico Ltda. oferece experiências únicas de ecoturismo na Amazônia."
-    }
+  {
+  "name": "Empresa Acreana",
+  "address": "Rua das Palmeiras, 123, Rio Branco - AC",
+  "phone": "+55 68 1234-5678",
+  "website": "https://www.empresaacreana.com",
+  "image": "empresaacreana_logo.png",
+  "membership_level": "Gold",
+  "other_information": "The Empresa Acreana is a leader in sustainability in the Amazon region. They have implemented innovative practices for environmental conservation and community development."
+  },
+  {
+  "name": "Companhia Amazônia",
+  "address": "Avenida dos Ipês, 456, Cruzeiro do Sul - AC",
+  "phone": "+55 68 2345-6789",
+  "website": "https://www.companhiaamazonia.com",
+  "image": "companhiaamazonia_logo.png",
+  "membership_level": "Silver",
+  "other_information": "Companhia Amazônia has been dedicated to the preservation of the Amazon's flora and fauna. They actively engage in reforestation efforts and wildlife conservation projects."
+  },
+  {
+  "name": "Floresta Verde Ltda.",
+  "address": "Travessa das Árvores, 789, Sena Madureira - AC",
+  "phone": "+55 68 3456-7890",
+  "website": "https://www.florestaverde.com",
+  "image": "florestaverde_logo.png",
+  "membership_level": "Bronze",
+  "other_information": "Floresta Verde Ltda. specializes in sustainable forest management in the Amazon. They employ state-of-the-art technologies to ensure minimal ecological impact while maximizing resource utilization."
+  },
+  {
+  "name": "Seringal Amazônia S.A.",
+  "address": "Estrada dos Seringais, 101, Feijó - AC",
+  "phone": "+55 68 4567-8901",
+  "website": "https://www.seringalamazonia.com",
+  "image": "seringalamazonia_logo.png",
+  "membership_level": "Gold",
+  "other_information": "Seringal Amazônia S.A. is a leader in sustainable production of natural rubber in the Amazon. They prioritize fair labor practices and ecosystem conservation in their operations."
+  },
+  {
+  "name": "Madeira Legal Ltda.",
+  "address": "Alameda das Castanheiras, 202, Tarauacá - AC",
+  "phone": "+55 68 5678-9012",
+  "website": "https://www.madeiralegal.com",
+  "image": "madeiralegal_logo.png",
+  "membership_level": "Silver",
+  "other_information": "Madeira Legal Ltda. operates in compliance with sustainable timber management standards in the Amazon. They are committed to responsible harvesting practices and forest regeneration initiatives."
+  },
+  {
+  "name": "Agrofloresta Sustentável S.A.",
+  "address": "Rodovia da Sustentabilidade, 303, Brasiléia - AC",
+  "phone": "+55 68 6789-0123",
+  "website": "https://www.agroflorestasustentavel.com",
+  "image": "agroflorestasustentavel_logo.png",
+  "membership_level": "Bronze",
+  "other_information": "Agrofloresta Sustentável S.A. is committed to sustainable agricultural practices in the Amazon. They promote agroforestry techniques to preserve biodiversity and soil fertility."
+  },
+  {
+  "name": "Turismo Amazônico Ltda.",
+  "address": "Praça das Águas, 404, Porto Acre - AC",
+  "phone": "+55 68 7890-1234",
+  "website": "https://www.turismoamazonico.com",
+  "image": "turismoamazonico_logo.png",
+  "membership_level": "Gold",
+  "other_information": "Turismo Amazônico Ltda. offers unique ecotourism experiences in the Amazon. They collaborate with local communities to provide sustainable tourism opportunities while preserving the natural environment."
+  },
+  {
+    "name": "Amazonia Adventures.",
+    "address": "Rua das Palmeiras, 123, Rio Branco - AC",
+    "phone": "+55 68 1234-5678",
+    "website": "https://www.amazoniaadventures.com",
+    "image": "amazoniaadventures_logo.png",
+    "membership_level": "Gold",
+    "other_information": "Explore the wonders of the Amazon with Amazonia Adventures! Embark on unforgettable journeys deep into the heart of the rainforest, led by experienced guides who unveil the mysteries of our natural world. From thrilling jungle treks to serene river cruises, we offer tailor-made experiences that immerse you in the beauty and magic of the Amazon. Discover your next adventure with Amazonia Adventures today!"
+  },
+  {
+    "name": "Rio Grande Fisheries",
+    "address": "",
+    "phone": "+55 68 5678-9012",
+    "website": "https://www.riograndefisheries.com",
+    "image": "riograndefisheries_logo.png",
+    "membership_level": "Gold",
+    "other_information": "Dive into a world of fresh flavors with Rio Grande Fisheries! Our commitment to sustainable fishing practices ensures that every catch is not only delicious but also environmentally responsible. From succulent river fish to exotic seafood delicacies, our products are sourced directly from the pristine waters of the Amazon. Join us in preserving our aquatic ecosystems while indulging in the finest flavors of the region. Taste the difference with Rio Grande Fisheries!" 
+  },
+  {
+    "name": "Crafts & Creations",
+    "address": "Rua das Palmeiras, 123, Rio Branco - AC",
+    "phone": "+55 68 1234-5678",
+    "website": "https://www.amazoniaciadepesca.com",
+    "membership_level":"Gold",
+    "other_information": "Elevate your home decor with Crafts & Creations! Discover an exquisite selection of handcrafted treasures, meticulously crafted by skilled artisans from the heart of Cruzeiro do Sul. From intricately woven textiles to intricately carved wooden sculptures, each piece reflects the rich cultural heritage and artistic traditions of our region. Experience the beauty of craftsmanship with Crafts & Creations – where every creation tells a story"
+  }
   ]
 }
