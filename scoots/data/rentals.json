@@ -1,0 +1,55 @@
+{
+  "rentals": [
+    {
+      "type": "Honda Motor Scooters",
+      "models": [
+        {
+          "name": "Honda Metropolitan (49cc)",
+          "capacity": "1 person",
+          "price": "$20 per day",
+          "image": "honda-metropolitan-small.webp"
+        },
+        {
+          "name": "Honda Dio (110cc)",
+          "capacity": "2 person",
+          "price": "$30 per day",
+          "image": "honda-dio-small.webp"
+        },
+        {
+          "name": "Honda PCX150 (149cc)",
+          "capacity": "2 person",
+          "price": "$40 per day",
+          "image": "honda-pcx150-small.webp"
+        }
+      ]
+    },
+    {
+      "type": "Side-by-Side ATVs",
+      "models": [
+        {
+          "name": "Honda Pioneer 1000",
+          "capacity": "4 person",
+          "price": "$100 per day",
+          "image": "honda-pioneer-small.webp"
+        }
+      ]
+    },
+    {
+      "type": "Jeeps",
+      "models": [
+        {
+          "name": "Jeep Wrangler - 4 door manuel with A/C",
+          "capacity": "5 person",
+          "price": "$80 per day",
+          "image": "jeep-wrangler-4-door-small.webp"
+        },
+        {
+          "name": "Jeep Wrangler - 2 door - open air - manuel",
+          "capacity": "4 person",
+          "price": "$70 per day",
+          "image": "jeep-wrangler-2-door-open-air-small.webp"
+        }
+      ]
+    }
+  ]
+}
