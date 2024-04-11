@@ -326,3 +326,16 @@ table#rentals-table img{
   grid-row: 1/2;
   grid-column: 1/4;
 }
+#networks{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  margin: 0 auto;
+  gap: 10px;
+}
+#networks img{
+  width: 64px;
+  height: 64px;
+}

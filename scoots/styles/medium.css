@@ -1,0 +1,22 @@
+@media screen and (min-width: 500px) {
+  nav, nav a, footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+  #menu{
+    display: none;
+  }
+  nav a{
+    width: 100%;
+  }
+  #pricing{
+    margin: 0 auto;
+    width: 700px;
+    grid-column: 1/3;
+  }
+  
+
+  
+}
